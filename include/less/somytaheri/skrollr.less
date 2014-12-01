@@ -1,0 +1,69 @@
+#slides-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#slides {
+  width: 200%;
+  height: 200%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.slide {
+  position:absolute;
+  top:0;
+  left:0;
+  width:50%;
+  height:50%;
+}
+#home {
+  background: @blue no-repeat center center;
+  background-size: cover;
+}
+#profile {
+  background: @matterhorn no-repeat center center;
+  background-size: cover;
+  -webkit-transform: translate(0,100%);
+  -ms-transform: translate(0,100%);
+  transform: translate(0,100%);
+}
+#about {
+  background: @pink no-repeat center center;
+  background-size: cover;
+  -webkit-transform: translate(100%,100%);
+  -ms-transform: translate(100%,100%);
+  transform: translate(100%,100%);
+}
+#contact {
+  background: @green no-repeat center center;
+  background-size: cover;
+  -webkit-transform: translate(100%,0%);
+  -ms-transform: translate(100%,0%);
+  transform: translate(100%,0%);
+}
+
+#helper {
+  position:absolute;
+  left:0;
+  top: 0;
+  height:400%;
+  width: 0;
+}
+.marker {
+  height: 25%;
+  width: 100%;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
