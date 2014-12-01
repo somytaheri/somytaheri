@@ -1,0 +1,82 @@
+#menu {
+  .navStyle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    .translate(0,-50%);
+
+    #navHome {
+      a:hover:after {
+        content: "Home";
+        position: absolute;
+        right: 40px;
+        top: 25px;
+        font-size: 18pt;
+      }
+    }
+    #navProfile {
+      a:hover:after {
+        content: "Profile";
+        position: absolute;
+        right: 40px;
+        top: 75px;
+        font-size: 18pt;
+      }
+    }
+    #navAbout {
+      a:hover:after {
+        content: "About";
+        position: absolute;
+        right: 40px;
+        top: 125px;
+        font-size: 18pt;
+      }
+    }
+    #navContact {
+      a:hover:after {
+        content: "Contact";
+        position: absolute;
+        right: 40px;
+        top: 175px;
+        font-size: 18pt;
+      }
+    }
+
+    .circleOuter {
+      .border-radius(50%);
+      background-color: rgba(250,250,250,0.5);
+      width: 35px;
+      height: 35px;
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .circleInner {
+      .border-radius(50%);
+      background-color: @white;
+      width: 25px;
+      height: 25px;
+      display: block;
+      .translate(20%,20%);
+    }
+  }
+
+  @media (min-width: @min-small) {
+    .navStyle {
+      right: 35px;
+      .circleOuter {
+        .border-radius(50%);
+        width: 35px;
+        height: 35px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      .circleInner {
+        .border-radius(50%);
+        width: 25px;
+        height: 25px;
+        .translate(20%,20%);
+      }
+    }
+  }
+}

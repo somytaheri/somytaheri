@@ -1,0 +1,32 @@
+.translate (@x, @y:0) {
+  -webkit-transform:       translate(@x, @y);
+  -moz-transform: 	 translate(@x, @y);
+  -ms-transform: 		 translate(@x, @y);
+  -o-transform: 		 translate(@x, @y);
+}
+
+.border-radius (@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius:    @radius;
+  border-radius:         @radius;
+  -moz-background-clip:    padding;
+  -webkit-background-clip: padding-box;
+  background-clip:         padding-box;
+}
+
+.centredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  .translate(-50%,-50%);
+  text-align: center;
+}
+
+.navHover {
+  a:hover:after {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+  }
+}
+

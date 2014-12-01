@@ -5,6 +5,55 @@ html {
 body {
   width: 100%;
   height: 100%;
+  color: #ffffff;
+  font-family: lato;
+}
+@font-face {
+  font-family: lato;
+  src: url("../fonts/Lato-Light.ttf");
+}
+ul {
+  list-style: none;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
+.centredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.navHover a:hover:after {
+  position: absolute;
+  right: 40px;
+  top: 25px;
+}
+.homeText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 250px;
+  font-size: 15pt;
+}
+@media (min-width: 768px) {
+  .homeText {
+    width: 430px;
+    font-size: 30pt;
+  }
 }
 #slides-container {
   width: 100%;
@@ -33,22 +82,25 @@ body {
   background: #483840 no-repeat center center;
   background-size: cover;
   -webkit-transform: translate(0, 100%);
+  -moz-transform: translate(0, 100%);
   -ms-transform: translate(0, 100%);
-  transform: translate(0, 100%);
+  -o-transform: translate(0, 100%);
 }
 #about {
   background: #ff2299 no-repeat center center;
   background-size: cover;
   -webkit-transform: translate(100%, 100%);
+  -moz-transform: translate(100%, 100%);
   -ms-transform: translate(100%, 100%);
-  transform: translate(100%, 100%);
+  -o-transform: translate(100%, 100%);
 }
 #contact {
   background: #00b204 no-repeat center center;
   background-size: cover;
   -webkit-transform: translate(100%, 0%);
+  -moz-transform: translate(100%, 0%);
   -ms-transform: translate(100%, 0%);
-  transform: translate(100%, 0%);
+  -o-transform: translate(100%, 0%);
 }
 #helper {
   position: absolute;
@@ -72,4 +124,102 @@ body {
 }
 .yellow {
   background-color: yellow;
+}
+#menu .navStyle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+}
+#menu .navStyle #navHome a:hover:after {
+  content: "Home";
+  position: absolute;
+  right: 40px;
+  top: 25px;
+  font-size: 18pt;
+}
+#menu .navStyle #navProfile a:hover:after {
+  content: "Profile";
+  position: absolute;
+  right: 40px;
+  top: 75px;
+  font-size: 18pt;
+}
+#menu .navStyle #navAbout a:hover:after {
+  content: "About";
+  position: absolute;
+  right: 40px;
+  top: 125px;
+  font-size: 18pt;
+}
+#menu .navStyle #navContact a:hover:after {
+  content: "Contact";
+  position: absolute;
+  right: 40px;
+  top: 175px;
+  font-size: 18pt;
+}
+#menu .navStyle .circleOuter {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: rgba(250, 250, 250, 0.5);
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#menu .navStyle .circleInner {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #ffffff;
+  width: 25px;
+  height: 25px;
+  display: block;
+  -webkit-transform: translate(20%, 20%);
+  -moz-transform: translate(20%, 20%);
+  -ms-transform: translate(20%, 20%);
+  -o-transform: translate(20%, 20%);
+}
+@media (min-width: 768px) {
+  #menu .navStyle {
+    right: 35px;
+  }
+  #menu .navStyle .circleOuter {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  #menu .navStyle .circleInner {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 25px;
+    height: 25px;
+    -webkit-transform: translate(20%, 20%);
+    -moz-transform: translate(20%, 20%);
+    -ms-transform: translate(20%, 20%);
+    -o-transform: translate(20%, 20%);
+  }
 }
