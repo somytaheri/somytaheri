@@ -17,6 +17,7 @@ body {
 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 a, a:hover, a:visited{
@@ -31,4 +32,13 @@ a, a:hover, a:visited{
   height: 100%;
   padding-left: 0px;
   padding-right: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+@media (min-width: @min-small) {
+  .container {
+    margin: 0 auto;
+  }
+
 }

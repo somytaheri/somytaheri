@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7043cf-e33c-426a-bb7e-719766e0fd02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/html/partials/footer.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/somytaheri/base.less" afterPath="$PROJECT_DIR$/include/less/somytaheri/base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/somytaheri/footer.less" afterPath="$PROJECT_DIR$/include/less/somytaheri/footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gruntfile.js" afterPath="$PROJECT_DIR$/gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/somytaheri/home.less" afterPath="$PROJECT_DIR$/include/less/somytaheri/home.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/partials/footer.hbs" afterPath="$PROJECT_DIR$/include/html/partials/footer.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/html/partials/nav-main.hbs" afterPath="$PROJECT_DIR$/include/html/partials/nav-main.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/somytaheri/nav-main.less" afterPath="$PROJECT_DIR$/include/less/somytaheri/nav-main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/somytaheri-min.css" afterPath="$PROJECT_DIR$/public/assets/css/somytaheri-min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/somytaheri.css" afterPath="$PROJECT_DIR$/public/assets/css/somytaheri.css" />
@@ -36,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/html/pages/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07601351" vertical-offset="0" max-vertical-offset="592">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="315">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
@@ -103,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/include/html/partials/footer.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="390">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -112,18 +108,18 @@
       <file leaf-file-name="base.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/less/somytaheri/base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.795918" vertical-offset="0" max-vertical-offset="585">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state vertical-scroll-proportion="-9.122449" vertical-offset="153" max-vertical-offset="735">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav-main.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nav-main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/less/somytaheri/nav-main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.755102" vertical-offset="768" max-vertical-offset="1425">
-              <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.07936508" vertical-offset="0" max-vertical-offset="1410">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -175,13 +171,13 @@
         <option value="$PROJECT_DIR$/include/html/partials/portfolio.hbs" />
         <option value="$PROJECT_DIR$/include/html/partials/contact.hbs" />
         <option value="$PROJECT_DIR$/include/html/partials/home.hbs" />
-        <option value="$PROJECT_DIR$/include/html/partials/footer.hbs" />
         <option value="$PROJECT_DIR$/include/less/somytaheri/home.less" />
         <option value="$PROJECT_DIR$/include/html/partials/about.hbs" />
-        <option value="$PROJECT_DIR$/include/less/somytaheri/nav-main.less" />
-        <option value="$PROJECT_DIR$/include/less/somytaheri/base.less" />
         <option value="$PROJECT_DIR$/include/less/somytaheri/footer.less" />
         <option value="$PROJECT_DIR$/include/html/layouts/master.hbs" />
+        <option value="$PROJECT_DIR$/include/html/partials/footer.hbs" />
+        <option value="$PROJECT_DIR$/include/less/somytaheri/base.less" />
+        <option value="$PROJECT_DIR$/include/less/somytaheri/nav-main.less" />
       </list>
     </option>
   </component>
@@ -708,30 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/somytaheri/nav-main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.755102" vertical-offset="768" max-vertical-offset="1425">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/somytaheri/base.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.795918" vertical-offset="0" max-vertical-offset="585">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/html/partials/footer.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="390">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/less/somytaheri/footer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5306122" vertical-offset="0" max-vertical-offset="285">
@@ -750,8 +722,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/html/pages/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07601351" vertical-offset="0" max-vertical-offset="592">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="315">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/html/partials/footer.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="390">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/somytaheri/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.122449" vertical-offset="153" max-vertical-offset="735">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/somytaheri/nav-main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07936508" vertical-offset="0" max-vertical-offset="1410">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding />
         </state>
       </provider>
