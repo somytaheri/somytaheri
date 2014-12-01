@@ -17,9 +17,9 @@ module.exports = function (grunt) {
                 }
             },
 
-            //clean: {
-            //    html: ['public/*.html']
-            //},
+            clean: {
+                html: ['public/*.html']
+            },
 
             jshint: {
                 all: ['<%= pkg.jsSource %>/**/*.js']
@@ -119,7 +119,7 @@ module.exports = function (grunt) {
             }
         });
 
-    grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'less','cssmin', 'modernizr', 'assemble']);
+    grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'less','cssmin', 'modernizr', 'clean', 'assemble']);
     grunt.registerTask('build', ['default']);
 
     grunt.loadNpmTasks('grunt-contrib-less');

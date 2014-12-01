@@ -6314,6 +6314,12 @@ a:visited {
   outline: none;
   color: #ffffff;
 }
+.container {
+  position: relative;
+  height: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .centredText {
   position: absolute;
   top: 50%;
@@ -6428,7 +6434,7 @@ a:visited {
 .yellow {
   background-color: yellow;
 }
-#menu .navStyle {
+#menu {
   position: absolute;
   top: 50%;
   right: 10px;
@@ -6510,8 +6516,8 @@ a:visited {
   -o-transform: translate(30%, 30%);
 }
 @media (min-width: 768px) {
-  #menu .navStyle {
-    right: 35px;
+  #menu {
+    right: -35px;
   }
   #menu .navStyle .circleOuter {
     -webkit-border-radius: 50%;
@@ -6548,7 +6554,7 @@ a:visited {
 }
 #footer ul li {
   float: left;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 #footer ul li .fa {
   font-size: 25px;

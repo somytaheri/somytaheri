@@ -1,10 +1,9 @@
 #menu {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  .translate(0,-50%);
   .navStyle {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    .translate(0,-50%);
-
     #navHome {
       position: relative;
       a:hover:after {
@@ -65,9 +64,13 @@
     }
   }
 
-  @media (min-width: @min-small) {
+
+}
+@media (min-width: @min-small) {
+  #menu {
+    right: -35px;
     .navStyle {
-      right: 35px;
+
       .circleOuter {
         .border-radius(50%);
         width: 35px;
@@ -79,7 +82,7 @@
         .border-radius(50%);
         width: 25px;
         height: 25px;
-        .translate(20%,20%);
+        .translate(20%, 20%);
       }
     }
   }
