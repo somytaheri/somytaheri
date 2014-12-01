@@ -16,11 +16,29 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a, a:hover, a:visited{
   text-decoration: none;
   outline: none;
   color: @white;
+
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+@media (min-width: @min-small) {
+  .container {
+    margin: 0 auto;
+  }
 
 }
