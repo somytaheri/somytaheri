@@ -6442,6 +6442,11 @@ a:visited {
 .yellow {
   background-color: yellow;
 }
+#header {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
 #menu {
   position: absolute;
   top: 50%;
