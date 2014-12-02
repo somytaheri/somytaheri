@@ -6350,7 +6350,7 @@ a:visited {
 .right {
   float: right;
 }
-.homeText {
+.textContent {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -6364,9 +6364,45 @@ a:visited {
   font-size: 15pt;
 }
 @media (min-width: 768px) {
-  .homeText {
+  .textContent {
     width: 430px;
     font-size: 30pt;
+  }
+}
+.textContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 250px;
+  font-size: 15pt;
+}
+@media (min-width: 768px) {
+  .textContent {
+    width: 430px;
+    font-size: 30pt;
+  }
+}
+#about .textContent ul li {
+  float: left;
+  margin-left: 5px;
+}
+#about .textContent ul li img {
+  width: 40px;
+  height: 40px;
+}
+@media (min-width: 768px) {
+  #about .textContent ul li {
+    margin-left: 10px;
+  }
+  #about .textContent ul li img {
+    width: 50px;
+    height: 50px;
   }
 }
 #slides-container {
