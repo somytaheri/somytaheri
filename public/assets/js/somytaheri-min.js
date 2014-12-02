@@ -1,1 +1,1 @@
-jQuery(document).ready(function(){{var a={$AutoPlay:!0,$AutoPlayInterval:3e3,$SlideDuration:1e3};new $JssorSlider$("slider1_container",a)}});
+jQuery(document).ready(function(){{var a={$AutoPlay:!0,$AutoPlayInterval:3e3,$SlideDuration:1e3,$ArrowNavigatorOptions:{$Class:$JssorArrowNavigator$,$ChanceToShow:1,$AutoCenter:2,$Steps:1}};new $JssorSlider$("slider1_container",a)}});

@@ -6328,7 +6328,7 @@ a:visited {
     margin: 0 auto;
   }
 }
-.centredText {
+.centredContent {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -6392,7 +6392,7 @@ a:visited {
   background: #0fa2b2 no-repeat center center;
   background-size: cover;
 }
-#profile {
+#portfolio {
   background: #483840 no-repeat center center;
   background-size: cover;
   transform: translate(0, 100%);
@@ -6444,7 +6444,7 @@ a:visited {
 }
 #header {
   position: absolute;
-  top: 10px;
+  top: 30px;
   left: 0;
 }
 #menu {
@@ -6560,7 +6560,7 @@ a:visited {
 #footer {
   width: 100%;
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
 }
 #footer ul li {
   float: left;
@@ -6568,6 +6568,79 @@ a:visited {
 }
 #footer ul li .fa {
   font-size: 25px;
+}
+.slider-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+  display: block;
+  width: 300px;
+  height: 195px;
+}
+#slider1_container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 195px;
+}
+#slider1_container .slider-content {
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 195px;
+}
+.jssora21l,
+.jssora21r,
+.jssora21ldn,
+.jssora21rdn {
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  background: url(../images/portfolio/a21.png) center center no-repeat;
+  overflow: hidden;
+  width: 55px;
+  height: 55px;
+}
+.jssora21l {
+  background-position: -3px -33px;
+}
+.jssora21r {
+  background-position: -63px -33px;
+}
+.jssora21l:hover {
+  background-position: -123px -33px;
+}
+.jssora21r:hover {
+  background-position: -183px -33px;
+}
+.jssora21ldn {
+  background-position: -243px -33px;
+}
+.jssora21rdn {
+  background-position: -303px -33px;
+}
+@media (min-width: 768px) {
+  .slider-wrapper {
+    width: 875px;
+    height: 568px;
+  }
+  #slider1_container {
+    width: 875px;
+    height: 568px;
+  }
+  #slider1_container .slider-content {
+    width: 875px;
+    height: 568px;
+  }
 }
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
