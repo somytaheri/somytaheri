@@ -6351,17 +6351,6 @@ a:visited {
   -o-transform: translate(-50%, -50%);
   text-align: center;
 }
-.navHover {
-  position: absolute;
-  left: 40px;
-  top: 0px;
-  font-size: 18pt;
-}
-.navHover a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
-}
 .left {
   float: left;
 }
@@ -6559,53 +6548,27 @@ a:visited {
 #menu .navStyle #navContact {
   position: relative;
 }
-#menu .navStyle #navHome a:hover:after {
-  content: "Home";
+#menu .navStyle .navHover {
   position: absolute;
   left: 40px;
   top: 0px;
   font-size: 18pt;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
 }
-#menu .navStyle #navHome a:hover:after a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
-}
-#menu .navStyle #navProfile a:hover:after {
-  content: "Profile";
-  position: absolute;
-  left: 40px;
-  top: 0px;
-  font-size: 18pt;
-}
-#menu .navStyle #navProfile a:hover:after a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
-}
-#menu .navStyle #navAbout a:hover:after {
-  content: "About";
-  position: absolute;
-  left: 40px;
-  top: 0px;
-  font-size: 18pt;
-}
-#menu .navStyle #navAbout a:hover:after a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
-}
-#menu .navStyle #navContact a:hover:after {
-  content: "Contact";
-  position: absolute;
-  left: 40px;
-  top: 0px;
-  font-size: 18pt;
-}
-#menu .navStyle #navContact a:hover:after a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
+#menu .navStyle a:hover .navHover {
+  opacity: 1;
+  filter: alpha(opacity=1);
+  transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
 }
 #menu .navStyle .circleOuter {
   -webkit-border-radius: 50%;
