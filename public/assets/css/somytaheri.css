@@ -6351,11 +6351,6 @@ a:visited {
   -o-transform: translate(-50%, -50%);
   text-align: center;
 }
-.navHover a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
-}
 .left {
   float: left;
 }
@@ -6380,12 +6375,6 @@ a:visited {
     width: 455px;
     font-size: 30pt;
   }
-}
-.navHover {
-  position: absolute;
-  left: 40px;
-  top: 0px;
-  font-size: 18pt;
 }
 #portfolio .portfolioItems {
   position: absolute;
@@ -6529,10 +6518,18 @@ a:visited {
 .yellow {
   background-color: yellow;
 }
-#header {
+.captionHeader {
   position: absolute;
-  top: 30px;
-  left: 0;
+  top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media (min-width: 768px) {
+  .captionHeader {
+    top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 #menu {
   position: fixed;
@@ -6551,53 +6548,27 @@ a:visited {
 #menu .navStyle #navContact {
   position: relative;
 }
-#menu .navStyle #navHome a:hover:after {
-  content: "Home";
+#menu .navStyle .navHover {
   position: absolute;
   left: 40px;
   top: 0px;
   font-size: 18pt;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
 }
-#menu .navStyle #navHome a:hover:after a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
-}
-#menu .navStyle #navProfile a:hover:after {
-  content: "Profile";
-  position: absolute;
-  left: 40px;
-  top: 0px;
-  font-size: 18pt;
-}
-#menu .navStyle #navProfile a:hover:after a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
-}
-#menu .navStyle #navAbout a:hover:after {
-  content: "About";
-  position: absolute;
-  left: 40px;
-  top: 0px;
-  font-size: 18pt;
-}
-#menu .navStyle #navAbout a:hover:after a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
-}
-#menu .navStyle #navContact a:hover:after {
-  content: "Contact";
-  position: absolute;
-  left: 40px;
-  top: 0px;
-  font-size: 18pt;
-}
-#menu .navStyle #navContact a:hover:after a:hover:after {
-  position: absolute;
-  right: 40px;
-  top: 25px;
+#menu .navStyle a:hover .navHover {
+  opacity: 1;
+  filter: alpha(opacity=1);
+  transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
 }
 #menu .navStyle .circleOuter {
   -webkit-border-radius: 50%;
@@ -6662,7 +6633,16 @@ a:visited {
 .captionFooter {
   width: 100%;
   position: absolute;
-  bottom: 30px;
+  bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media (min-width: 768px) {
+  .captionFooter {
+    bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 #footer ul li {
   float: left;
