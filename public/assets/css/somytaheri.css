@@ -6351,6 +6351,12 @@ a:visited {
   -o-transform: translate(-50%, -50%);
   text-align: center;
 }
+.navHover {
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  font-size: 18pt;
+}
 .navHover a:hover:after {
   position: absolute;
   right: 40px;
@@ -6380,12 +6386,6 @@ a:visited {
     width: 455px;
     font-size: 30pt;
   }
-}
-.navHover {
-  position: absolute;
-  left: 40px;
-  top: 0px;
-  font-size: 18pt;
 }
 #portfolio .portfolioItems {
   position: absolute;
@@ -6529,10 +6529,18 @@ a:visited {
 .yellow {
   background-color: yellow;
 }
-#header {
+.captionHeader {
   position: absolute;
-  top: 30px;
-  left: 0;
+  top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media (min-width: 768px) {
+  .captionHeader {
+    top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 #menu {
   position: fixed;
@@ -6662,7 +6670,16 @@ a:visited {
 .captionFooter {
   width: 100%;
   position: absolute;
-  bottom: 30px;
+  bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media (min-width: 768px) {
+  .captionFooter {
+    bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 #footer ul li {
   float: left;
