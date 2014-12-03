@@ -23,20 +23,20 @@ $( '#blog-slides .cycle-slideshow' ).on( 'cycle-after', function(event, optionHa
 //    event.preventDefault();
 //});
 //});
-$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-    });
-});
+// $(function() {
+//     $('a[href*=#]:not([href=#])').click(function() {
+//         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+//             var target = $(this.hash);
+//             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+//             if (target.length) {
+//                 $('html,body').animate({
+//                     scrollTop: target.offset().top
+//                 }, 1000);
+//                 return false;
+//             }
+//         }
+//     });
+// });
 
 //$('a').click(function(){
 //    $('html, body').animate({
@@ -73,7 +73,7 @@ console.log($("#contact").position());
 //});
 
 //
-//var hheight=$("#home").height();
+var pageHeight=$("#home").height();
 //
 //$("#navProfile").click(function(){
 //    console.log("hi");
@@ -82,11 +82,23 @@ console.log($("#contact").position());
 //    return false;
 //});
 //
-$("a").click(function(){
-    //console.log("hi");
-    //$('html, body').animate({scrollTop : 1900},800);
-    //console.log(hheight);
-    //return false;
+var scrollAnimation = function(y,t){
+    $('html, body').animate({scrollTop : pageHeight*y},1500*t);
+    console.log(hheight);
+    return false;
+};
+
+$("#navHome").click(function(){
+    scrollAnimation(0,1);
+});
+$("#navProfile").click(function(){
+    scrollAnimation(2,2);
+});
+$("#navAbout").click(function(){
+    scrollAnimation(3,3);
+});
+$("#navContact").click(function(){
+    scrollAnimation(5,4);
 });;/**
  * Created by somi on 1/12/14.
  */
