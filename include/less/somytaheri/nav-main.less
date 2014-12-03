@@ -1,47 +1,35 @@
 #menu {
-  position: absolute;
+  position: fixed;
   top: 50%;
-  right: 0px;
+  left: 0px;
   .translate(0,-50%);
+  z-index: 10;
   .navStyle {
-    #navHome {
+    #navHome, #navProfile, #navAbout, #navContact {
       position: relative;
+    }
+    #navHome {
       a:hover:after {
         content: "Home";
-        position: absolute;
-        right: 40px;
-        top: 0px;
-        font-size: 18pt;
+        .navHover;
       }
     }
     #navProfile {
-      position: relative;
       a:hover:after {
         content: "Profile";
-        position: absolute;
-        right: 40px;
-        top: 0px;
-        font-size: 18pt;
+        .navHover;
       }
     }
     #navAbout {
-      position: relative;
       a:hover:after {
         content: "About";
-        position: absolute;
-        right: 40px;
-        top: 0px;
-        font-size: 18pt;
+        .navHover;
       }
     }
     #navContact {
-      position: relative;
       a:hover:after {
         content: "Contact";
-        position: absolute;
-        right: 40px;
-        top: 0px;
-        font-size: 18pt;
+        .navHover;
       }
     }
 

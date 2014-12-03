@@ -13,6 +13,13 @@
   -webkit-background-clip: padding-box;
   background-clip:         padding-box;
 }
+.transition (@transition){
+  -webkit-transition: @transition;
+  -moz-transition:    @transition;
+  -ms-transition:     @transition;
+  -o-transition:      @transition;
+}
+
 
 .centredContent {
   position: absolute;
@@ -36,5 +43,22 @@
 
 .right {
   float: right;
+}
+
+.textContent {
+  .centredContent;
+  width: 250px;
+  font-size: 15pt;
+  @media(min-width: @min-small) {
+    width: 455px;
+    font-size: 30pt;
+  }
+}
+
+.navHover {
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  font-size: 18pt;
 }
 

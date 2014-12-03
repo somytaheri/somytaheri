@@ -11,11 +11,13 @@
 
     <!--<link rel="stylesheet" href="/assets/css/somytaheri-bootstrap-min.css">-->
     <link rel="stylesheet" href="/assets/css/somytaheri-min.css">
+    <noscript><link rel="stylesheet" type="text/css" href="/assets/css/noJS.css"/></noscript>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
     <![endif]-->
     <!--<script src="assets/js/vendor/modernizr.min.js"></script>-->
 
@@ -23,6 +25,14 @@
     <!--<script src="/assets/js/vendor/respond.min.js"></script>-->
 </head>
 <body>
+<nav id="menu">
+    <ul class="navStyle">
+        <li class="page-scroll" id="navHome"><a href="#home" class="circleOuter"><span class="circleInner"></span></a></li>
+        <li class="page-scroll" id="navProfile"><a href="#portfolio" class="circleOuter"><span class="circleInner"></span></a></li>
+        <li class="page-scroll" id="navAbout"><a href="#about" class="circleOuter"><span class="circleInner"></span></a></li>
+        <li class="page-scroll" id="navContact"><a href="#contact" class="circleOuter"><span class="circleInner"></span></a></li>
+    </ul>
+</nav>
 <div id="slides-container">
     <div id="slides" data-0="transform:translate(0%,0%);"
          data-150p="transform:translate(0%,-50%);"
@@ -34,27 +44,30 @@
 
     
 <div id="home" class="slide">
-    <div class="container">
+    <div class="textContent">
+        <span>
+            Hey My name is Somy
+            I’m front end developer
+            Scroll down to see my cool website
+        </span>
+    </div>
+    <div class="captionHeader"
+         data-40p="opacity: 1; transform:translate(0px,0px);"
+         data-70p="opacity: 0; transform:translate(0px,-100%);"
+         data-anchor-target="#helper"
+            >
         <header id="header">
     <img src="" alt="logo"/>
     <span>SOMYTAHERI</span>
 </header>
-        <div class="homeText">
-            <span>
-                Hey My name is Somy
-                I’m front end developer
-                Scroll down to see my cool website
-            </span>
-        </div>
-        <nav id="menu">
-    <ul class="navStyle">
-        <li id="navHome"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navProfile"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navAbout"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navContact"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-    </ul>
-</nav>
+    </div>
+    <div class="captionFooter"
+         data-40p="opacity: 1; transform:translate(0px,0px);"
+         data-70p="opacity: 0; transform:translate(0px,-100%);"
+         data-anchor-target="#helper"
+            >
         
+
 <footer id="footer">
         <div class="left">
             <small><span class="year">2014</span> © SOMY TAHERI</small>
@@ -62,13 +75,13 @@
         <!--<div class="right">-->
             <ul class="right">
                 <li>
-                    <a href=""><span class="fa fa-linkedin-square"></span></a>
+                    <a href="https://www.linkedin.com/pub/somy-taheri/a6/a49/58" target="_blank"><span class="fa fa-linkedin-square"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="fa fa-github-square"></span></a>
+                    <a href="https://github.com/somytaheri" target="_blank"><span class="fa fa-github-square"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="fa fa-stack-overflow"></span></a>
+                    <a href="http://stackoverflow.com/users/4144355/somi" target="_blank"><span class="fa fa-stack-overflow" target="_blank"></span></a>
                 </li>
             </ul>
         <!--</div>-->
@@ -80,29 +93,77 @@
     
 <div id="portfolio" class="slide">
     <div class="container">
+        <div class="portfolioItems">
+            <ul>
+                <a href="http://rahiemakeup.com/" target="_blank">
+                    <li class="col-xs-12 col-sm-4">
+                        <img src="assets/images/portfolio/00.jpg" alt="" />
+                        <div class="portfolioDescription">
+                            <h3>Rahie Makeup</h3>
+                            <p>html</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="http://rahiemakeup.com/" target="_blank">
+                    <li class="col-xs-12 col-sm-4">
+                        <img src="assets/images/portfolio/01.jpg" alt="" />
+                        <div class="portfolioDescription">
+                            <h3>Rahie Makeup</h3>
+                            <p>HTML5, CSS3, BOOTSTRAP, SASS</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="http://rahiemakeup.com/" target="_blank">
+                    <li class="col-xs-12 col-sm-4">
+                        <img src="assets/images/portfolio/02.jpg" alt="" />
+                        <div class="portfolioDescription">
+                            <h3>Rahie Makeup</h3>
+                            <p>html</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="http://rahiemakeup.com/" target="_blank">
+                    <li class="col-xs-12 col-sm-4">
+                        <img src="assets/images/portfolio/03.jpg" alt="" />
+                        <div class="portfolioDescription">
+                            <h3>Rahie Makeup</h3>
+                            <p>html</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="http://rahiemakeup.com/" target="_blank">
+                    <li class="col-xs-12 col-sm-4">
+                        <img src="assets/images/portfolio/04.jpg" alt="" />
+                        <div class="portfolioDescription">
+                            <h3>Rahie Makeup</h3>
+                            <p>html</p>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="captionHeader"
+         data-130p="opacity: 0; transform:translate(0px,-200%);"
+         data-180p="opacity: 1; transform:translate(0px,0px);"
+         data-250p=""
+         data-280p="opacity: 0; transform:translate(-100px,0px);"
+         data-anchor-target="#helper"
+            >
         <header id="header">
     <img src="" alt="logo"/>
     <span>SOMYTAHERI</span>
 </header>
-        <div class="slider-wrapper">
-            <div id="slider1_container">
-                <div u="slides" class="slider-content">
-                    <div><img u="image" src="assets/images/00.jpg" /></div>
-                    <div><img u="image" src="assets/images/01.jpg" /></div>
-                    <span data-u="arrowleft" class="jssora21l" style="left:8px;"></span>
-                    <span data-u="arrowright" class="jssora21r" style="right:8px;"></span>
-                </div><!-- /.slider-content-->
-            </div><!-- /#slider1_container-->
-        </div><!-- /.slider-wrapper-->
-        <nav id="menu">
-    <ul class="navStyle">
-        <li id="navHome"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navProfile"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navAbout"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navContact"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-    </ul>
-</nav>
+    </div>
+    <div class="captionFooter"
+         data-130p="opacity: 0; transform:translate(0px,-200%);"
+         data-180p="opacity: 1; transform:translate(0px,0px);"
+         data-250p=""
+         data-280p="opacity: 0; transform:translate(-100px,0px);"
+         data-anchor-target="#helper"
+            >
         
+
 <footer id="footer">
         <div class="left">
             <small><span class="year">2014</span> © SOMY TAHERI</small>
@@ -110,13 +171,13 @@
         <!--<div class="right">-->
             <ul class="right">
                 <li>
-                    <a href=""><span class="fa fa-linkedin-square"></span></a>
+                    <a href="https://www.linkedin.com/pub/somy-taheri/a6/a49/58" target="_blank"><span class="fa fa-linkedin-square"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="fa fa-github-square"></span></a>
+                    <a href="https://github.com/somytaheri" target="_blank"><span class="fa fa-github-square"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="fa fa-stack-overflow"></span></a>
+                    <a href="http://stackoverflow.com/users/4144355/somi" target="_blank"><span class="fa fa-stack-overflow" target="_blank"></span></a>
                 </li>
             </ul>
         <!--</div>-->
@@ -124,22 +185,82 @@
     </div>
 </div>
 
+
+
     
 <div id="about" class="slide">
-    <div class="container">
+    <div class="textContent">
+        <span>
+            Hey My name is Somy
+            I’m front end developer
+            Scroll down to see my cool website
+        </span>
+        <span>
+            Some of tools I work with:
+        </span>
+        <ul class="">
+            <li>
+                <img src="assets/images/about/html5.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/css3.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/javascript.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/jquery.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/sass-less.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/bootstrap.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/handlebars.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/grunt.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/bower.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/git.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/github.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/sourcetree.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/webstorm.png" alt=""/>
+            </li>
+            <li>
+                <img src="assets/images/about/sublime.png" alt=""/>
+            </li>
+
+        </ul>
+    </div>
+    <div class="captionHeader"
+         data-250p="opacity: 0; transform:translate(300px,0px);"
+         data-300p="opacity: 1; transform:translate(0px,0px);"
+         data-anchor-target="#helper"
+            >
         <header id="header">
     <img src="" alt="logo"/>
     <span>SOMYTAHERI</span>
 </header>
-        <nav id="menu">
-    <ul class="navStyle">
-        <li id="navHome"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navProfile"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navAbout"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navContact"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-    </ul>
-</nav>
+    </div>
+    <div class="captionFooter"
+         data-250p="opacity: 0; transform:translate(300px,0px);"
+         data-300p="opacity: 1; transform:translate(0px,0px);"
+         data-anchor-target="#helper"
+            >
         
+
 <footer id="footer">
         <div class="left">
             <small><span class="year">2014</span> © SOMY TAHERI</small>
@@ -147,13 +268,13 @@
         <!--<div class="right">-->
             <ul class="right">
                 <li>
-                    <a href=""><span class="fa fa-linkedin-square"></span></a>
+                    <a href="https://www.linkedin.com/pub/somy-taheri/a6/a49/58" target="_blank"><span class="fa fa-linkedin-square"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="fa fa-github-square"></span></a>
+                    <a href="https://github.com/somytaheri" target="_blank"><span class="fa fa-github-square"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="fa fa-stack-overflow"></span></a>
+                    <a href="http://stackoverflow.com/users/4144355/somi" target="_blank"><span class="fa fa-stack-overflow" target="_blank"></span></a>
                 </li>
             </ul>
         <!--</div>-->
@@ -162,20 +283,37 @@
 </div>
     
 <div id="contact" class="slide">
-    <div class="container">
+    <ul class="textContent">
+        <li>
+            <span class="fa fa-map-marker"></span>
+            Melbourne-Australia
+        </li>
+        <li>
+            <span class="fa fa-envelope-o"></span>
+            somy.taheri@gmail.com
+        </li>
+        <li>
+            <span class="fa fa-phone-square"></span>
+            0469 982 994
+        </li>
+    </ul>
+    <div class="captionHeader"
+         data-430p="opacity: 0;"
+         data-450p="opacity: 1;"
+         data-anchor-target="#helper"
+            >
         <header id="header">
     <img src="" alt="logo"/>
     <span>SOMYTAHERI</span>
 </header>
-        <nav id="menu">
-    <ul class="navStyle">
-        <li id="navHome"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navProfile"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navAbout"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-        <li id="navContact"><a href="" class="circleOuter"><span class="circleInner"></span></a></li>
-    </ul>
-</nav>
+    </div>
+    <div class="captionFooter"
+         data-430p="opacity: 0;"
+         data-450p="opacity: 1;"
+         data-anchor-target="#helper"
+            >
         
+
 <footer id="footer">
         <div class="left">
             <small><span class="year">2014</span> © SOMY TAHERI</small>
@@ -183,13 +321,13 @@
         <!--<div class="right">-->
             <ul class="right">
                 <li>
-                    <a href=""><span class="fa fa-linkedin-square"></span></a>
+                    <a href="https://www.linkedin.com/pub/somy-taheri/a6/a49/58" target="_blank"><span class="fa fa-linkedin-square"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="fa fa-github-square"></span></a>
+                    <a href="https://github.com/somytaheri" target="_blank"><span class="fa fa-github-square"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="fa fa-stack-overflow"></span></a>
+                    <a href="http://stackoverflow.com/users/4144355/somi" target="_blank"><span class="fa fa-stack-overflow" target="_blank"></span></a>
                 </li>
             </ul>
         <!--</div>-->
@@ -218,7 +356,13 @@
         var s = skrollr.init();
     </script>
 
-    <script src="/assets/js/vendor/jssor.slider.mini.js"></script>
+    <script src="/assets/js/vendor/jquery.cycle2.caption2.js"></script>
+    <script src="/assets/js/vendor/jquery.cycle2.min.js"></script>
+    <script src="/assets/js/vendor/TweenMax.min.js"></script>
+
+
+
+    <!--<script src="/assets/js/vendor/jssor.slider.mini.js"></script>-->
     <script src="/assets/js/somytaheri-min.js"></script>
 </body>
 </html>
