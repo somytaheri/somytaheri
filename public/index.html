@@ -53,6 +53,7 @@
         </li>
     </ul>
 </nav>
+
 <div id="slides-container">
     <div id="slides" data-0="transform:translate(0%,0%);"
          data-150p="transform:translate(0%,-50%);"
@@ -386,7 +387,9 @@
     </script>
     <script src="/assets/js/vendor/TweenMax.min.js"></script>
 
-
+    <script>
+        TweenLite.to($(".navHover"), 1, {scrambleText:{text:"THIS IS NEW TEXT", chars:"XO", revealDelay:0.5, speed:0.3, newClass:"myClass"}});
+    </script>
 
     <!--<script src="/assets/js/vendor/jssor.slider.mini.js"></script>-->
     <script src="/assets/js/somytaheri-min.js"></script>
