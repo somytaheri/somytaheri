@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e7043cf-e33c-426a-bb7e-719766e0fd02" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/somytaheri/mixpats.less" afterPath="$PROJECT_DIR$/include/less/somytaheri/mixpats.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/somytaheri/nav-main.less" afterPath="$PROJECT_DIR$/include/less/somytaheri/nav-main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/js/skrollr-nav.js" afterPath="$PROJECT_DIR$/include/js/skrollr-nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/less/somytaheri/portfolio.less" afterPath="$PROJECT_DIR$/include/less/somytaheri/portfolio.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/somytaheri-min.css" afterPath="$PROJECT_DIR$/public/assets/css/somytaheri-min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/somytaheri-min.js" afterPath="$PROJECT_DIR$/public/assets/js/somytaheri-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/somytaheri-src.js" afterPath="$PROJECT_DIR$/public/assets/js/somytaheri-src.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/somytaheri.css" afterPath="$PROJECT_DIR$/public/assets/css/somytaheri.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -53,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/less/somytaheri/portfolio.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3469386" vertical-offset="0" max-vertical-offset="780">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="25" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.31634447" vertical-offset="60" max-vertical-offset="930">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -96,8 +93,8 @@
       <file leaf-file-name="mixpats.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/less/somytaheri/mixpats.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0408163" vertical-offset="286" max-vertical-offset="855">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state vertical-scroll-proportion="-2.4489796" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -113,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skrollr-nav.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="skrollr-nav.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/js/skrollr-nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3883495" vertical-offset="0" max-vertical-offset="690">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
               <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
@@ -175,16 +172,16 @@
         <option value="$PROJECT_DIR$/include/less/somytaheri.less" />
         <option value="$PROJECT_DIR$/include/html/partials/footer.hbs" />
         <option value="$PROJECT_DIR$/include/less/variables.less" />
-        <option value="$PROJECT_DIR$/include/less/somytaheri/portfolio.less" />
         <option value="$PROJECT_DIR$/include/html/layouts/master.hbs" />
         <option value="$PROJECT_DIR$/include/less/somytaheri/footer.less" />
         <option value="$PROJECT_DIR$/include/less/somytaheri/header.less" />
         <option value="$PROJECT_DIR$/include/js/skrollr_nav.js" />
         <option value="$PROJECT_DIR$/include/html/partials/portfolio.hbs" />
         <option value="$PROJECT_DIR$/include/html/partials/nav-main.hbs" />
-        <option value="$PROJECT_DIR$/include/less/somytaheri/mixpats.less" />
         <option value="$PROJECT_DIR$/include/less/somytaheri/nav-main.less" />
         <option value="$PROJECT_DIR$/include/js/skrollr-nav.js" />
+        <option value="$PROJECT_DIR$/include/less/somytaheri/mixpats.less" />
+        <option value="$PROJECT_DIR$/include/less/somytaheri/portfolio.less" />
       </list>
     </option>
   </component>
@@ -912,34 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/html/partials/portfolio.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="1455">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/html/partials/nav-main.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="510">
           <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/somytaheri/portfolio.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3469386" vertical-offset="0" max-vertical-offset="780">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="25" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/less/somytaheri/mixpats.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0408163" vertical-offset="286" max-vertical-offset="855">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -954,8 +927,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/js/skrollr-nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3883495" vertical-offset="0" max-vertical-offset="690">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/html/partials/portfolio.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="1455">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/somytaheri/mixpats.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4489796" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/less/somytaheri/portfolio.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31634447" vertical-offset="60" max-vertical-offset="930">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="42" />
           <folding />
         </state>
       </provider>

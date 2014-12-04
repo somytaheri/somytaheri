@@ -5460,22 +5460,22 @@ button.close {
   outline: 0;
 }
 .modal.fade .modal-dialog {
-  transform: translate(0, -25%);
   -webkit-transform: translate(0, -25%);
   -moz-transform: translate(0, -25%);
   -ms-transform: translate(0, -25%);
   -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
   -webkit-transition: -webkit-transform 0.3s ease-out;
   -moz-transition: -moz-transform 0.3s ease-out;
   -o-transition: -o-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
 }
 .modal.in .modal-dialog {
-  transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 .modal-open .modal {
   overflow-x: hidden;
@@ -6344,11 +6344,11 @@ a:visited {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 .left {
@@ -6361,11 +6361,11 @@ a:visited {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   width: 250px;
   font-size: 15pt;
@@ -6380,11 +6380,11 @@ a:visited {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
   height: 70%;
@@ -6397,6 +6397,14 @@ a:visited {
 }
 #portfolio .portfolioItems ul li {
   float: left;
+  overflow: hidden;
+}
+#portfolio .portfolioItems ul li img {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
 }
 #portfolio .portfolioItems ul li .portfolioDescription {
   background-color: rgba(255, 255, 255, 0.6);
@@ -6414,6 +6422,12 @@ a:visited {
   -moz-transition: opacity 0.4s ease-in-out;
   -ms-transition: opacity 0.4s ease-in-out;
   -o-transition: opacity 0.4s ease-in-out;
+}
+#portfolio .portfolioItems ul li:hover img {
+  -webkit-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  -o-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
 }
 #portfolio .portfolioItems ul li:hover .portfolioDescription {
   opacity: 1;
@@ -6471,29 +6485,29 @@ a:visited {
 #portfolio {
   background: #483840 no-repeat center center;
   background-size: cover;
-  transform: translate(0, 100%);
   -webkit-transform: translate(0, 100%);
   -moz-transform: translate(0, 100%);
   -ms-transform: translate(0, 100%);
   -o-transform: translate(0, 100%);
+  transform: translate(0, 100%);
 }
 #about {
   background: #f263b2 no-repeat center center;
   background-size: cover;
-  transform: translate(100%, 100%);
   -webkit-transform: translate(100%, 100%);
   -moz-transform: translate(100%, 100%);
   -ms-transform: translate(100%, 100%);
   -o-transform: translate(100%, 100%);
+  transform: translate(100%, 100%);
 }
 #contact {
   background: #0fa626 no-repeat center center;
   background-size: cover;
-  transform: translate(100%, 0%);
   -webkit-transform: translate(100%, 0%);
   -moz-transform: translate(100%, 0%);
   -ms-transform: translate(100%, 0%);
   -o-transform: translate(100%, 0%);
+  transform: translate(100%, 0%);
 }
 #helper {
   position: absolute;
@@ -6536,11 +6550,11 @@ a:visited {
   top: 50%;
   left: 0px;
   z-index: 10;
-  transform: translate(0, -50%);
   -webkit-transform: translate(0, -50%);
   -moz-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
 }
 #menu .navStyle #navHome,
 #menu .navStyle #navProfile,
@@ -6595,11 +6609,11 @@ a:visited {
   width: 15px;
   height: 15px;
   display: block;
-  transform: translate(30%, 30%);
   -webkit-transform: translate(30%, 30%);
   -moz-transform: translate(30%, 30%);
   -ms-transform: translate(30%, 30%);
   -o-transform: translate(30%, 30%);
+  transform: translate(30%, 30%);
 }
 @media (min-width: 768px) {
   #menu {
@@ -6626,11 +6640,11 @@ a:visited {
     background-clip: padding-box;
     width: 25px;
     height: 25px;
-    transform: translate(20%, 20%);
     -webkit-transform: translate(20%, 20%);
     -moz-transform: translate(20%, 20%);
     -ms-transform: translate(20%, 20%);
     -o-transform: translate(20%, 20%);
+    transform: translate(20%, 20%);
   }
 }
 .captionFooter {
@@ -6687,11 +6701,11 @@ a:visited {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   width: 500px;
   margin-right: 350px;
