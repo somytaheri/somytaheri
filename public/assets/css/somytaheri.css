@@ -6668,6 +6668,9 @@ a:visited {
 #footer ul li .fa {
   font-size: 25px;
 }
+#footer ul li .fa:hover {
+  color: #000000;
+}
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
