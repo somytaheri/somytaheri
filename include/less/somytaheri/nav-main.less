@@ -2,8 +2,8 @@
   position: fixed;
   top: 50%;
   left: 0px;
-  .translate(0,-50%);
   z-index: 10;
+  .translate(0,-50%);
   .navStyle {
     #navHome, #navProfile, #navAbout, #navContact {
       position: relative;
@@ -45,6 +45,7 @@
 }
 @media (min-width: @min-small) {
   #menu {
+    left: 5px;
     .navStyle {
       .circleOuter {
         .border-radius(50%);

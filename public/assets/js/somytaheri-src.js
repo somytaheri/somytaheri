@@ -14,24 +14,46 @@ $( '#blog-slides .cycle-slideshow' ).on( 'cycle-after', function(event, optionHa
     });
 });
 ;
-var pageHeight=$("#home").height();
+var pageHeight = $("#home").height();
 var scrollAnimation = function(y,t){
-    $('html, body').animate({scrollTop : pageHeight*y},1500*t);
+    $('html, body').animate({scrollTop : pageHeight*y},1000*t,"swing");
     return false;
+};
+var y1;
+var scrollTime = function(){
+    var scrollPosition = $(window).scrollTop();
+     y1=scrollPosition/pageHeight;
+    return y1;
 };
 
 $("#navHome").click(function(){
-    scrollAnimation(0,1);
+    scrollTime();
+    var t = Math.abs(0-y1);
+    scrollAnimation(0,t);
+    console.log(t);
 });
 $("#navProfile").click(function(){
-    scrollAnimation(2,2);
+    scrollTime();
+    var t = Math.abs(2-y1);
+    scrollAnimation(2,t);
+    console.log(t);
+
+
 });
 $("#navAbout").click(function(){
-    scrollAnimation(3,3);
+    scrollTime();
+    var t = Math.abs(3-y1);
+    scrollAnimation(3,t);
+    console.log(t);
 });
 $("#navContact").click(function(){
-    scrollAnimation(5,4);
-});;/**
+    scrollTime();
+    var t = Math.abs(5-y1);
+    scrollAnimation(5,t);
+    console.log(t);
+});
+
+;/**
  * Created by somi on 1/12/14.
  */
 

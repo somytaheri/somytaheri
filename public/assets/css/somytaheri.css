@@ -6535,12 +6535,12 @@ a:visited {
   position: fixed;
   top: 50%;
   left: 0px;
+  z-index: 10;
   transform: translate(0, -50%);
   -webkit-transform: translate(0, -50%);
   -moz-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
-  z-index: 10;
 }
 #menu .navStyle #navHome,
 #menu .navStyle #navProfile,
@@ -6602,6 +6602,9 @@ a:visited {
   -o-transform: translate(30%, 30%);
 }
 @media (min-width: 768px) {
+  #menu {
+    left: 5px;
+  }
   #menu .navStyle .circleOuter {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
