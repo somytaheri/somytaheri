@@ -6442,18 +6442,53 @@ a:visited {
   width: 100%;
   height: auto;
 }
+#about .textContent ul {
+  text-align: center;
+}
 #about .textContent ul li {
-  float: left;
+  display: inline-block;
+  width: 70px;
   margin-left: 5px;
+  margin-bottom: 5px;
+  position: relative;
 }
 #about .textContent ul li img {
   width: 40px;
   height: 40px;
 }
+#about .textContent ul li .skillAnimation {
+  min-width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+  font-size: 12pt;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+}
+#about .textContent ul li:hover img {
+  filter: alpha(opacity=30);
+  opacity: 0.3;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+}
+#about .textContent ul li:hover .skillAnimation {
+  opacity: 1;
+  filter: alpha(opacity=1);
+  transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+}
 @media (min-width: 768px) {
-  #about .textContent ul li {
-    margin-left: 10px;
-  }
   #about .textContent ul li img {
     width: 50px;
     height: 50px;

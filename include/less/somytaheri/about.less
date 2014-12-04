@@ -1,11 +1,37 @@
 #about {
   .textContent {
     ul {
+      text-align: center;
       li {
-        float: left;
+        display: inline-block;
+        width: 70px;
         margin-left: 5px;
+        margin-bottom: 5px;
+        position: relative;
         img {
           .size(40px,40px);
+        }
+        .skillAnimation {
+          min-width: 100%;
+          position: absolute;
+          left:0px;
+          top: 20px;
+          font-size: 12pt;
+          opacity: 0;
+          filter: alpha(opacity=0);
+          .transition(opacity 0.4s ease-in-out)
+        }
+        &:hover {
+          img {
+            filter: alpha(opacity=30);
+            opacity: 0.3;
+            .transition(opacity 0.5s ease-in-out)
+          }
+          .skillAnimation {
+            opacity: 1;
+            filter: alpha(opacity=1);
+            .transition(opacity 0.4s ease-in-out)
+          }
         }
       }
     }
@@ -15,7 +41,7 @@
     .textContent {
       ul {
         li {
-          margin-left: 10px;
+//          margin-left: 10px;
           img {
             .size(50px,50px);
           }
