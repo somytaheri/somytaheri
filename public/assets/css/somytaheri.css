@@ -6484,132 +6484,125 @@ a:link {
 #slides-container {
   width: 100%;
   height: 100%;
+  overflow: hidden;
+  position: relative;
 }
 #slides {
-  width: 100%;
-  height: 100%;
-  position: relative;
+  width: 200%;
+  height: 200%;
+  position: absolute;
   top: 0;
   left: 0;
 }
 .slide {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
 }
 #home {
   background: #0fa2b2 no-repeat center center;
   background-size: cover;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
 #portfolio {
   background: #483840 no-repeat center center;
   background-size: cover;
+  -webkit-transform: translate(0, 100%);
+  -moz-transform: translate(0, 100%);
+  -ms-transform: translate(0, 100%);
+  -o-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
 #about {
   background: #f2508b no-repeat center center;
   background-size: cover;
+  -webkit-transform: translate(100%, 100%);
+  -moz-transform: translate(100%, 100%);
+  -ms-transform: translate(100%, 100%);
+  -o-transform: translate(100%, 100%);
+  transform: translate(100%, 100%);
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
 #contact {
   background: #04bf9d no-repeat center center;
   background-size: cover;
+  -webkit-transform: translate(100%, 0%);
+  -moz-transform: translate(100%, 0%);
+  -ms-transform: translate(100%, 0%);
+  -o-transform: translate(100%, 0%);
+  transform: translate(100%, 0%);
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
-#helper {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 400%;
-  width: 0;
+.anima1 {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
-.marker {
-  height: 25%;
-  width: 100%;
+.anima2 {
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
-.red {
-  background-color: red;
+.anima3 {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
-.green {
-  background-color: green;
+.anima4 {
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
-.blue {
-  background-color: blue;
-}
-.yellow {
-  background-color: yellow;
-}
-@media (min-width: 768px) {
-  #slides-container {
-    overflow: hidden;
-  }
-  #slides {
-    width: 200%;
-    height: 200%;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  .slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-  }
-  #home {
-    background: #0fa2b2 no-repeat center center;
-    background-size: cover;
-  }
-  #portfolio {
-    background: #483840 no-repeat center center;
-    background-size: cover;
-    -webkit-transform: translate(0, 100%);
-    -moz-transform: translate(0, 100%);
-    -ms-transform: translate(0, 100%);
-    -o-transform: translate(0, 100%);
-    transform: translate(0, 100%);
-  }
-  #about {
-    background: #f2508b no-repeat center center;
-    background-size: cover;
-    -webkit-transform: translate(100%, 100%);
-    -moz-transform: translate(100%, 100%);
-    -ms-transform: translate(100%, 100%);
-    -o-transform: translate(100%, 100%);
-    transform: translate(100%, 100%);
-  }
-  #contact {
-    background: #04bf9d no-repeat center center;
-    background-size: cover;
-    -webkit-transform: translate(100%, 0%);
-    -moz-transform: translate(100%, 0%);
-    -ms-transform: translate(100%, 0%);
-    -o-transform: translate(100%, 0%);
-    transform: translate(100%, 0%);
-  }
-  #helper {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 600%;
-    width: 20px;
-  }
-  .marker {
-    height: 25%;
-    width: 100%;
-  }
-  .red {
-    background-color: red;
-  }
-  .green {
-    background-color: green;
-  }
-  .blue {
-    background-color: blue;
-  }
-  .yellow {
-    background-color: yellow;
-  }
+#header img {
+  width: 40px;
+  height: 76.45px;
 }
 .captionHeader {
   position: absolute;
@@ -6619,7 +6612,7 @@ a:link {
 }
 @media (min-width: 768px) {
   .captionHeader {
-    top: 40px;
+    top: 20px;
     padding-left: 40px;
     padding-right: 40px;
   }

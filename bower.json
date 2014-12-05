@@ -6,6 +6,7 @@
     "jquery": "1.11.1",
     "respond": "~1.4.2",
     "modernizr": "~2.8.3",
-    "skrollr": "~0.6.29"
+    "skrollr": "~0.6.29",
+    "jquery.transit": "~0.9.12"
   }
 }

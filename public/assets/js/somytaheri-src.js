@@ -1,48 +1,27 @@
-/**
- * Created by somi on 5/12/14.
- */
-if (document.documentElement.clientWidth >768){
-        var s = skrollr.init();
-        //var _smoothScrolling = on;
-}
-;var y1,
-    pageHeight = $("#home").height();
+var
+    pageHeight = $("#home").height(),
+    pageWidth = $("#home").width();
 
-var scrollAnimation = function(y,t){
-    $('html, body').animate({scrollTop : pageHeight*y},1000*t,"swing");
-    console.log(y);
+var scrollAnimation = function(x,y){
+    $("#slides").transition({ x: pageWidth*-x,y:pageHeight*-y },1500,"in");
     return false;
 };
 
-var scrollTime = function(){
-    var scrollPosition = $(window).scrollTop();
-     y1=scrollPosition/pageHeight;
-    return y1;
-};
 
 $("#navHome").click(function(){
-    scrollTime();
-    var t = Math.abs(0-y1);
-    scrollAnimation(0,t);
-
+    scrollAnimation(0,0);
 });
 
 $("#navProfile").click(function(){
-    scrollTime();
-    var t = Math.abs(2-y1);
-    scrollAnimation(2,t);
+    scrollAnimation(0,1);
 });
 
 $("#navAbout").click(function(){
-    scrollTime();
-    var t = Math.abs(3-y1);
-    scrollAnimation(3,t);
+    scrollAnimation(1,1);
 });
 
 $("#navContact").click(function(){
-    scrollTime();
-    var t = Math.abs(5-y1);
-    scrollAnimation(5,t);
+    scrollAnimation(1,0);
 });
 
 ;/**

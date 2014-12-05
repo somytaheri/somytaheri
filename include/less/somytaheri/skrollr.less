@@ -1,75 +1,15 @@
-#slides-container {
-  width: 100%;
-  height: 100%;
-//  overflow: hidden;
-}
-#slides {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-}
 
-.slide {
-  position:relative;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-}
-#home {
-  background: @blue no-repeat center center;
-  background-size: cover;
-}
-#portfolio {
-  background: @matterhorn no-repeat center center;
-  background-size: cover;
-//  .translate (0, 100%);
-}
-#about {
-  background: @pink no-repeat center center;
-  background-size: cover;
-//  .translate (100%, 100%);
-}
-#contact {
-  background: @green no-repeat center center;
-  background-size: cover;
-//  .translate (100%,0%);
-}
-#helper {
-  position:absolute;
-  left:0;
-  top: 0;
-  height:400%;
-  width: 0;
-}
-.marker {
-  height: 25%;
-  width: 100%;
-}
-.red {
-  background-color: red;
-}
-.green {
-  background-color: green;
-}
-.blue {
-  background-color: blue;
-}
-.yellow {
-  background-color: yellow;
-}
-@media (min-width: @min-small){
+
   #slides-container {
-//    width: 100%;
-//    height: 100%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
+    position: relative;
   }
   #slides {
     width: 200%;
     height: 200%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
   }
@@ -83,44 +23,50 @@
   #home {
     background: @blue no-repeat center center;
     background-size: cover;
+    .transition(all 1s ease-in-out);
   }
   #portfolio {
     background: @matterhorn no-repeat center center;
     background-size: cover;
     .translate (0, 100%);
+    .transition(all 1s ease-in-out);
   }
   #about {
     background: @pink no-repeat center center;
     background-size: cover;
     .translate (100%, 100%);
+    .transition(all 1s ease-in-out);
   }
   #contact {
     background: @green no-repeat center center;
     background-size: cover;
     .translate (100%,0%);
-  }
-  #helper {
-    position:absolute;
-    left:0;
-    top: 0;
-    height:600%;
-    width: 20px;
-  }
-  .marker {
-    height: 25%;
-    width: 100%;
-  }
-  .red {
-    background-color: red;
-  }
-  .green {
-    background-color: green;
-  }
-  .blue {
-    background-color: blue;
-  }
-  .yellow {
-    background-color: yellow;
+    .transition(all 1s ease-in-out);
   }
 
+
+
+
+.anima1 {
+//  top:-0%;
+//  left:0%;
+    .translate (0, 0);
+  .transition(all 1s ease-in-out);
+}
+.anima2 {
+//  top: -50%;
+    .translate (0, -50%);
+  .transition(all 1s ease-in-out);
+}
+.anima3 {
+//  top:-50%;
+//  left:-50%;
+  .translate (-50%, -50%);
+  .transition(all 1s ease-in-out);
+}
+.anima4 {
+//  top:-0%;
+//  left:-50%;
+  .translate (-50%, 0);
+  .transition(all 1s ease-in-out);
 }
