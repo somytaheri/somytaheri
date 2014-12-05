@@ -1,6 +1,10 @@
 /**
  * Created by somi on 5/12/14.
  */
+if (document.documentElement.clientWidth >768){
+        var s = skrollr.init();
+        //var _smoothScrolling = on;
+}
 ;var y1,
     pageHeight = $("#home").height();
 
@@ -41,3 +45,9 @@ $("#navContact").click(function(){
     scrollAnimation(5,t);
 });
 
+;/**
+ * Created by somi on 5/12/14.
+ */
+var date = new Date();
+var currentYear = date.getFullYear();
+$('.year').text(currentYear);

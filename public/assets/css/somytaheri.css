@@ -6322,7 +6322,8 @@ ul {
 }
 a,
 a:hover,
-a:visited {
+a:visited,
+a:link {
   text-decoration: none;
   outline: none;
   color: #ffffff;
@@ -6350,6 +6351,7 @@ a:visited {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
 }
 .left {
   float: left;
@@ -6367,14 +6369,18 @@ a:visited {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
   width: 250px;
-  font-size: 15pt;
+  font-size: 12pt;
 }
 @media (min-width: 768px) {
   .textContent {
-    width: 455px;
-    font-size: 30pt;
+    width: 650px;
+    font-size: 28pt;
   }
+}
+#home .fa-heart {
+  color: #ff0000;
 }
 #portfolio .portfolioItems {
   position: absolute;
@@ -6391,20 +6397,24 @@ a:visited {
   overflow-y: auto;
   overflow-x: hidden;
 }
-#portfolio .portfolioItems ul [class*="col-sm-"] {
-  padding-right: 0;
-  padding-left: 0;
+#portfolio .portfolioItems ul {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#portfolio .portfolioItems ul [class*="col-xs-"] {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 #portfolio .portfolioItems ul li {
   float: left;
   overflow: hidden;
 }
 #portfolio .portfolioItems ul li img {
-  transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
 #portfolio .portfolioItems ul li .portfolioDescription {
   background-color: rgba(255, 255, 255, 0.8);
@@ -6417,39 +6427,43 @@ a:visited {
   text-align: center;
   opacity: 0;
   filter: alpha(opacity=0);
-  transition: opacity 0.4s ease-in-out;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -ms-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
 }
 #portfolio .portfolioItems ul li:hover img {
-  -webkit-transform: scale(1.5, 1.5);
-  -ms-transform: scale(1.5, 1.5);
-  -o-transform: scale(1.5, 1.5);
-  transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
 #portfolio .portfolioItems ul li:hover .portfolioDescription {
   opacity: 1;
   filter: alpha(opacity=1);
-  transition: opacity 0.4s ease-in-out;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -ms-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
 }
 #portfolio .portfolioItems ul li img {
   width: 100%;
   height: auto;
 }
+#about .textContent .fa-heart {
+  color: #f9afca;
+}
 #about .textContent ul {
   text-align: center;
+  margin-top: 10px;
 }
 #about .textContent ul li {
   display: inline-block;
-  width: 70px;
+  width: 40px;
   margin-left: 5px;
   margin-bottom: 5px;
   position: relative;
@@ -6458,39 +6472,10 @@ a:visited {
   width: 40px;
   height: 40px;
 }
-#about .textContent ul li .skillAnimation {
-  min-width: 100%;
-  position: absolute;
-  left: 0px;
-  top: 20px;
-  font-size: 12pt;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  transition: opacity 0.4s ease-in-out;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -ms-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-}
-#about .textContent ul li:hover img {
-  filter: alpha(opacity=30);
-  opacity: 0.3;
-  transition: opacity 0.5s ease-in-out;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -ms-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
-}
-#about .textContent ul li:hover .skillAnimation {
-  opacity: 1;
-  filter: alpha(opacity=1);
-  transition: opacity 0.4s ease-in-out;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -ms-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-}
 @media (min-width: 768px) {
+  #about .textContent ul li {
+    width: 50px;
+  }
   #about .textContent ul li img {
     width: 50px;
     height: 50px;
@@ -6499,21 +6484,20 @@ a:visited {
 #slides-container {
   width: 100%;
   height: 100%;
-  overflow: hidden;
 }
 #slides {
-  width: 200%;
-  height: 200%;
-  position: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
   top: 0;
   left: 0;
 }
 .slide {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 #home {
   background: #0fa2b2 no-repeat center center;
@@ -6522,29 +6506,14 @@ a:visited {
 #portfolio {
   background: #483840 no-repeat center center;
   background-size: cover;
-  -webkit-transform: translate(0, 100%);
-  -moz-transform: translate(0, 100%);
-  -ms-transform: translate(0, 100%);
-  -o-transform: translate(0, 100%);
-  transform: translate(0, 100%);
 }
 #about {
-  background: #f263b2 no-repeat center center;
+  background: #f2508b no-repeat center center;
   background-size: cover;
-  -webkit-transform: translate(100%, 100%);
-  -moz-transform: translate(100%, 100%);
-  -ms-transform: translate(100%, 100%);
-  -o-transform: translate(100%, 100%);
-  transform: translate(100%, 100%);
 }
 #contact {
-  background: #0fa626 no-repeat center center;
+  background: #04bf9d no-repeat center center;
   background-size: cover;
-  -webkit-transform: translate(100%, 0%);
-  -moz-transform: translate(100%, 0%);
-  -ms-transform: translate(100%, 0%);
-  -o-transform: translate(100%, 0%);
-  transform: translate(100%, 0%);
 }
 #helper {
   position: absolute;
@@ -6568,6 +6537,79 @@ a:visited {
 }
 .yellow {
   background-color: yellow;
+}
+@media (min-width: 768px) {
+  #slides-container {
+    overflow: hidden;
+  }
+  #slides {
+    width: 200%;
+    height: 200%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+  }
+  #home {
+    background: #0fa2b2 no-repeat center center;
+    background-size: cover;
+  }
+  #portfolio {
+    background: #483840 no-repeat center center;
+    background-size: cover;
+    -webkit-transform: translate(0, 100%);
+    -moz-transform: translate(0, 100%);
+    -ms-transform: translate(0, 100%);
+    -o-transform: translate(0, 100%);
+    transform: translate(0, 100%);
+  }
+  #about {
+    background: #f2508b no-repeat center center;
+    background-size: cover;
+    -webkit-transform: translate(100%, 100%);
+    -moz-transform: translate(100%, 100%);
+    -ms-transform: translate(100%, 100%);
+    -o-transform: translate(100%, 100%);
+    transform: translate(100%, 100%);
+  }
+  #contact {
+    background: #04bf9d no-repeat center center;
+    background-size: cover;
+    -webkit-transform: translate(100%, 0%);
+    -moz-transform: translate(100%, 0%);
+    -ms-transform: translate(100%, 0%);
+    -o-transform: translate(100%, 0%);
+    transform: translate(100%, 0%);
+  }
+  #helper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 600%;
+    width: 20px;
+  }
+  .marker {
+    height: 25%;
+    width: 100%;
+  }
+  .red {
+    background-color: red;
+  }
+  .green {
+    background-color: green;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .yellow {
+    background-color: yellow;
+  }
 }
 .captionHeader {
   position: absolute;
@@ -6601,9 +6643,9 @@ a:visited {
 }
 #menu .navStyle .navHover {
   position: absolute;
-  left: 40px;
+  left: 30px;
   top: 0px;
-  font-size: 18pt;
+  font-size: 12pt;
   opacity: 0;
   filter: alpha(opacity=0);
   transition: opacity 0.4s ease-in-out;
@@ -6655,6 +6697,10 @@ a:visited {
 @media (min-width: 768px) {
   #menu {
     left: 5px;
+  }
+  #menu .navStyle .navHover {
+    font-size: 18pt;
+    left: 40px;
   }
   #menu .navStyle .circleOuter {
     -webkit-border-radius: 50%;
