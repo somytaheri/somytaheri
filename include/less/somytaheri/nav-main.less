@@ -10,9 +10,9 @@
     }
     .navHover {
       position: absolute;
-      left: 40px;
+      left: 30px;
       top: 0px;
-      font-size: 18pt;
+      font-size: 12pt;
       opacity: 0;
       filter: alpha(opacity=0);
       .transition(opacity 0.4s ease-in-out)
@@ -47,6 +47,10 @@
   #menu {
     left: 5px;
     .navStyle {
+      .navHover {
+        font-size: 18pt;
+        left: 40px;
+      }
       .circleOuter {
         .border-radius(50%);
         width: 35px;

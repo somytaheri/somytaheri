@@ -6,10 +6,12 @@
     overflow-y: auto;
     overflow-x: hidden;
     ul {
-      [class*="col-sm-"]{
-        padding-right: 0;
-        padding-left: 0;
+      [class*="col-xs-"]{
+        padding-right: 0px;
+        padding-left: 0px;
       }
+      margin-left: 25px;
+      margin-right: 25px;
       li {
         float: left;
         overflow: hidden;
@@ -28,31 +30,24 @@
           opacity: 0;
           filter: alpha(opacity=0);
           .transition(opacity 1s ease-in-out);
-
         }
         &:hover {
           img {
             .scale(1.2,1.2);
             opacity: 0.5;
             filter: alpha(opacity=50);
-
           }
           .portfolioDescription {
             opacity: 1;
             filter: alpha(opacity=1);
             .transition(opacity 1s ease-in-out);
-
-
           }
-
-        }        img {
+        }
+        img {
           width: 100%;
           height: auto;
-
         }
       }
     }
-
   }
-
 }
