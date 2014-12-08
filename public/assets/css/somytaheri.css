@@ -6527,8 +6527,8 @@ a:link {
   left: 50%;
 }
 #header img {
-  width: 40px;
-  height: 76.45px;
+  width: 32px;
+  height: 61.16px;
 }
 .captionHeader {
   position: absolute;
@@ -6537,6 +6537,10 @@ a:link {
   padding-right: 5px;
 }
 @media (min-width: 768px) {
+  #header img {
+    width: 40px;
+    height: 76.45px;
+  }
   .captionHeader {
     top: 20px;
     padding-left: 40px;
