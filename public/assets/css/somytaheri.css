@@ -6526,7 +6526,7 @@ a:link {
   top: 0;
   left: 50%;
 }
-#header img {
+.header img {
   width: 32px;
   height: 61.16px;
 }
@@ -6617,6 +6617,9 @@ a:link {
   -o-transform: translate(30%, 30%);
   transform: translate(30%, 30%);
 }
+#menu .navStyle .active .circleOuter {
+  color: #009900;
+}
 @media (min-width: 768px) {
   #menu {
     left: 5px;
@@ -6667,14 +6670,14 @@ a:link {
     padding-right: 40px;
   }
 }
-#footer ul li {
+.footer ul li {
   float: left;
   margin-left: 10px;
 }
-#footer ul li .fa {
+.footer ul li .fa {
   font-size: 25px;
 }
-#footer ul li .fa:hover {
+.footer ul li .fa:hover {
   color: #000000;
 }
 /*!
